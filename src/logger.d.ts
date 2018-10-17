@@ -108,5 +108,4 @@ export interface ILogger {
   createDefaultHandler(options?: ILoggerOpts): (messages: any[], context: IContext) => void;
 }
 
-declare var Logger: ILogger;
-export = Logger;
+export const Logger: ILogger;
